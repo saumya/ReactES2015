@@ -14,6 +14,8 @@ class CompTwo extends React.Component {
     );
   }
 }
+// legacy Export
+//module.exports = CompTwo;
 
-//export default CompTwo;
-module.exports = CompTwo;
+// ES 2015 export
+export default CompTwo;
